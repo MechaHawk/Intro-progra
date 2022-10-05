@@ -1,3 +1,6 @@
+from ast import Str
+
+
 i=0
 while i<3:
       usuario=input("ingrese su nombre de usuario :\n")
@@ -32,7 +35,44 @@ def menu():
     opcion = input("Escribe un número y pulsa enter: ")
 
     if opcion == "1":
-        print()
+        
+        def menu1():
+            
+            print("Elige una opción:\n\n",
+                "1-Ver empleados actuales.\n",
+                "2-Modificar datos de empleados.\n",
+                "3-Ingresar nuevo empleado.\n",
+                "4-Salir.\n")
+
+            op1= input("Escribe un número y pulsa enter: ")
+            ListaEmpleados=['Bryan','Valeria','Jafet','Anderson']
+            
+            if op1=="1":
+                print("Los colaboradores actuales son los siguientes",ListaEmpleados)
+
+
+            elif op1=="2":
+                print(ListaEmpleados)
+                print(" Digite el nombre que desea Agregar")
+                AgregarEmpleado=input()
+                print("El nombre a agregar es el siguiente",AgregarEmpleado)
+                ListaEmpleados.append(AgregarEmpleado)
+                print(ListaEmpleados)
+
+            elif op1=="3":
+                print(ListaEmpleados)
+                print(" Digite el nombre que desea Agregar")
+                AgregarEmpleado=input()
+                print("El nombre a agregar es el siguiente",AgregarEmpleado)
+                ListaEmpleados.append(AgregarEmpleado)
+                print(ListaEmpleados)
+            
+            elif op1=="4":
+                print("Salistes del programa satisfactoriamente")
+                
+
+        menu1()
+
 
     elif opcion == "2":
         print()
