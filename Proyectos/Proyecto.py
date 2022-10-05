@@ -20,23 +20,36 @@ while i<3:
 
 
 
-Modulo=int(input("Estos son los modulos disponibles para accesar :\n \n1.Modulo de empleados \n2.Modulo de clientes \n3.Modulo de proveedores \n4.Modulo de Productos \n5.Modulo de Ventas\n\nDigite el numero del modulo al cual vas a acceder\n"))
+def menu():
+    print("Elige una opción:\n",
+          "1-Empleados.\n",
+          "2-Clientes.\n",
+          "3-Provedores.\n",
+          "4-Productos.\n",
+          "5-Ventas.\n",
+          "6-Salir.\n")
 
-if Modulo==1:
+    opcion = input("Escribe un número y pulsa enter: ")
 
-    Opcion1=int(input("Estas entrando al modulo de empleados\n \n1.Ver lista de empleados \n2. Modificar informacion de empleados \n3.Borrar empleado \n4.ingresar empleado\n\nDigite el numero del modulo al cual vas a acceder\n"))
-    Empleadoslista=['Bryan','Valeria','Jafet','Anderson']
-    if Opcion1==1:
-     print("La lista de empleados actual es la siguiente\n",Empleadoslista)
+    if opcion == "1":
+        print()
 
-elif Modulo==2:
-    print("Estas entrando al modulo de clientes\n")
+    elif opcion == "2":
+        print()
 
-elif Modulo==3:
-    print("Estas entrando al modulo de Proveedores\n")
+    elif opcion == "3":
+        print()
 
-elif Modulo==4:
-    print("Estas entrando al modulo de Productos\n")
+    elif opcion == "4":
+        print()
 
-elif Modulo==5:
-    print("Estas entrando al modulo de ventas\n")
+    elif opcion == "5":
+        print()
+    
+    elif opcion == "6":
+        print("Finalizando programa")
+        exit
+
+    else:
+        print("No has introducido una opción válida.\n Cerrando programa")
+menu()
