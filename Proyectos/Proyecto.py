@@ -1,6 +1,3 @@
-from ast import Str
-
-
 i=0
 while i<3:
       usuario=input("ingrese su nombre de usuario :\n")
@@ -93,3 +90,7 @@ def menu():
     else:
         print("No has introducido una opción válida.\n Cerrando programa")
 menu()
+
+
+
+juyfdestasrdyftgkutruyeteasrdftyguoi8y7t6r4ets
