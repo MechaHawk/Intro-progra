@@ -91,6 +91,3 @@ def menu():
         print("No has introducido una opción válida.\n Cerrando programa")
 menu()
 
-
-
-juyfdestasrdyftgkutruyeteasrdftyguoi8y7t6r4ets
