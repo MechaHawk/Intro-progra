@@ -1,3 +1,8 @@
+#Estudiantes
+#Bryan Orozco Rojas 
+#Valeria Vega Madrigal
+
+
 i=0
 while i<3:
       usuario=input("ingrese su nombre de usuario :\n")
