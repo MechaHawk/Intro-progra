@@ -1,7 +1,6 @@
-from functools import total_ordering
-
 
 def menu():
+        
         print("Elige la opción a comprar:\n",
           "1-Teclado gamer.\n",
           "2-Tarjeta de video.\n",
@@ -9,6 +8,7 @@ def menu():
           "4-Tarjeta madre.\n",
           "5-Salir del sistema.\n")
 
+        
         opcion = input("Escribe el número y pulsa enter: ")
 
         if opcion == "1":
