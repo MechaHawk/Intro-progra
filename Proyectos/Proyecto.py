@@ -1,6 +1,7 @@
 #Estudiantes
 #Bryan Orozco Rojas 
 #Valeria Vega Madrigal
+#Jafet Cordoba Calderon
 
 
 i=0
